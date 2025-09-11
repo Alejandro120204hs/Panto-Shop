@@ -278,7 +278,7 @@ header .bag-button .counter-products{
 }
 
 #products .star i{
-    color: #f6b76f;
+    color: #f29832;
 }
 
 #products .star{
@@ -319,7 +319,6 @@ header .bag-button .counter-products{
 
 #products .slick-arrow::before{
     color: #0d1b39;
-    
 }
 
 /* ESTILOS EXPERIENCES--------------------------------------------------------------------------------------------- */
@@ -478,8 +477,97 @@ header .bag-button .counter-products{
     border-radius: 20px 0 0 0;
 }
 
+/* ESTILOS TESTIMONIALS----------------------------------------------------------------------------------------- */
+#testimonials{
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+}
+
+#testimonials h3{
+    color: var(--primary-color);
+    margin-top: 130px;
+    margin-bottom: 10px;
+    font-size: var(--fs-tittle4);
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+#testimonials h2{
+    font-size: var(--fs-tittle2);
+    font-weight: 700;
+    color: var(--dark-color);
+    margin-bottom: 30px;
+}
+
+#testimonials .card-testimonials{
+    position: relative;
+    left: 31px;
+}
+
+#testimonials .card-testimonials .cont-info{
+    background: var(--white-color);
+    position: absolute;
+    width: 78%;
+    bottom: 20px;
+    border-radius: 30px;
+    left: 4%;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
 
 
+#testimonials .card-testimonials .cont-info img{
+    position: absolute;
+    top: -35px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border: 10px solid var(--white-color);
+    border-radius: 50%;
+    
+}
+
+#testimonials .card-testimonials .cont-info h4{
+    font-size: var(--fs-tittle4);
+    color: var(--dark-color);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#testimonials .card-testimonials .cont-info h5{
+    font-size: 12px;
+    color: var(--dark-color);
+    color: #666;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+#testimonials .card-testimonials .star i{
+    color: #f29832;
+}
+
+#testimonials .card-testimonials .star i:nth-child(5){
+    opacity: 0.5;
+}
+
+#testimonials .slick-arrow{
+    background: var(--white-color);
+    width: 44px;
+    height: 44px;
+    z-index: 999;
+    border-radius: 50%;
+    color: #0d1b39;
+    border: 1px solid #dbdada;
+   
+}
+
+#testimonials .slick-arrow::before{
+    color: #0d1b39;
+}
   
 
 
