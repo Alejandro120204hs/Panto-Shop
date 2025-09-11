@@ -568,21 +568,120 @@ header .bag-button .counter-products{
 #testimonials .slick-arrow::before{
     color: #0d1b39;
 }
-  
 
+/* ESTILOS FOOTER ------------------------------------------------------------------- */
+footer{
+    background: #f7f7f7;
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+}
+  
+footer .titulo a{
+    font-size: 28px;
+    color: var(--dark-color);
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-decoration: none;
+    transition: .5s;
+    display: inline-block;
+}
+
+footer .titulo a:hover{
+    transform: scale(1.2);
+}
+
+footer .titulo p{
+    font-size: var(--fs-text);
+    line-height: 30px;
+    margin-bottom: 120px;
+}
+
+footer h3{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight:400;
+    margin-bottom: 27px;
+}
+
+footer p{
+    font-size: var(--fs-text);
+}
+
+footer p a{
+    color: var(--dark-color);
+    text-decoration: none;
+    font-size: var(--fs-text);
+}
+
+footer .icono p{
+    transition: .5s;
+}
+
+footer .icono p:hover{
+    transform: scale(1.2);
+}
+
+footer p.c{
+    font-size: 15px;
+    color: var(--dark-color);
+    font-weight: 400;
+}
+
+footer .copy{
+    margin-top: 10px;
+}
 
 
 
 /* 6. TABLET */
 /* ESTILOS RESPONSIVE TABLET */
 @media screen and (min-width: 768px) and (max-width: 1000px) {
-    
+    #hero p{
+        padding: 10px 20px;
+    }
+
+    #hero{
+        padding: 0 20px 0 0;
+    }
+
+    header{
+        height: 110vh;
+    }
+
+    #choosing-us h2{
+        margin-bottom: 100px;
+    }
+
+    #experiences .cont-img img{
+        width: 100%;
+    }
+
+    #experiences .cont-img::before{
+        top: -28px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #experiences .cont-img::after{
+        right: -10px;
+        height: 200px;
+        width: 200px;
+        top: 35px;
+    }
+
+    #experiences .cont-img{
+        top: 78px;
+    }
+
+    .navbar-toggler{
+        background: var(--white-color);
+    }
+
 }
-
-
 
 /* 7. SMARTPHONE */
 /* ESTILOS RESPONSIVE */
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px){
     
 }
