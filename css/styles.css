@@ -400,12 +400,17 @@ header .bag-button .counter-products{
     margin-left: 20px;
 }
 
+/* ESTILOS MATERIALS------------------------------------------------------------------------------------------------------- */
+
 #materials{
     width: 100%;
     position: relative;
     padding: 140px 0;
 }
 
+#materials .cont-info{
+    padding-left: 80px;
+}
 
 #materials .cont-info h3{
     color: var(--primary-color);
@@ -413,18 +418,21 @@ header .bag-button .counter-products{
     margin-bottom: 20px;
     font-size: var(--fs-tittle4);
     font-weight: 500;
+    letter-spacing: 3px;
 }
 
 #materials .cont-info h2{
     font-size: 42px;
     font-weight: 700;
     margin-bottom: 20px;
+    
 }
 
 #materials .cont-info p{
     font-size: var(--fs-text);
     line-height: 2.0;
     margin-bottom: 24px;
+    
 }
 
 #materials .cont-info a{
@@ -441,14 +449,40 @@ header .bag-button .counter-products{
     margin-left: 20px;
 }
 
-#materials .cont-img-left img.im{
-    margin-top: 26px;
+#materials .cont-img-left{
+    position: relative;
+    left: 40px;
 }
 
-#materials .cont-img-right{
+#materials .cont-img-left img.im{
+    margin-bottom: 55px;
+    margin-top: -10px;
+}
+
+#materials .cont-img-right img{
+    position: relative;
+    left: 50px;
+    top: 110px;
+    filter: drop-shadow( 10px 20px 15px  #d49045);
+}
+
+#materials .cont-img-right::after{
+    content: "";
+    background: #f7f7f7;
+    z-index: -1;
+    width: 260px;
+    height: 300px;
+    position: absolute;
+    right: 0px;
+    top: 210px;
+    border-radius: 20px 0 0 0;
+}
+
+
+
   
 
-}
+
 
 
 /* 6. TABLET */
