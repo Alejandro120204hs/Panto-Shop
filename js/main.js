@@ -21,7 +21,7 @@ $('.slaider-products').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     },
@@ -63,7 +63,7 @@ $('.slider-testimonials').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     },

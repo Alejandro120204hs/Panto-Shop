@@ -678,10 +678,141 @@ footer .copy{
         background: var(--white-color);
     }
 
+    header .bag-button{
+        display: none;
+    }
+
+    #materials .cont-info{
+        margin-bottom: 40px;
+    }
+
+    #materials .cont-img-right::after{
+        top: 720px;
+    }
+
+    #materials .cont-img-right img{
+        left: 55px;
+    }
+
+    footer h3 {
+        margin-bottom: 40px;
+    }
+
+    footer .icono p.facebook{
+        margin-top: -20px;
+    }
+
+
 }
 
 /* 7. SMARTPHONE */
 /* ESTILOS RESPONSIVE */
 @media screen and (min-width: 320px) and (max-width: 767px){
-    
+    #hero p{
+        padding: 10px 20px;
+    }
+
+    #hero h2{
+        font-size: 60px;
+    }
+
+    #hero{
+        padding: 0 20px 0 0;
+    }
+
+    header{
+        height: 110vh;
+    }
+
+   
+    #choosing-us h2{
+        margin-bottom: 30px;
+    }
+
+    #choosing-us p{
+        margin-bottom: 1px;
+    }
+
+   #choosing-us h3{
+    margin-top: 10px;
+   }
+
+   #experiences{
+    padding: 140px 0 10px 0;
+   }
+
+    #experiences .cont-img img{
+        width: 100%;
+        margin-bottom: 110px;
+    }
+
+    #experiences .cont-img::before{
+        top: -28px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #experiences .cont-img::after{
+        right: -10px;
+        height: 200px;
+        width: 200px;
+        top: 35px;
+    }
+
+    #experiences .cont-img{
+        top: 78px;
+    }
+
+    .navbar-toggler{
+        background: var(--white-color);
+    }
+
+    header .bag-button{
+        display: none;
+    }
+
+    #materials{
+        padding: 10px 0;
+    }
+
+    #materials .cont-info{
+        margin-bottom: 40px;
+    }
+
+    #materials .cont-img-left {
+        left: 90px;
+    }
+
+    #materials .cont-img-right img {
+        width: 300px;
+    }
+
+    #materials .cont-img-right::after{
+        top: 1320px;
+    }
+
+    #materials .cont-img-right img{
+        left: 55px;
+    }
+
+    footer h3 {
+        margin-bottom: 40px;
+    }
+
+    footer p.e{
+        margin-top: -30px;
+    }
+
+     footer p.b{
+        margin-top: -30px;
+    }
+  
+
+    footer .icono p.facebook{
+        margin-top: -20px;
+    }
+
+    footer p.c{
+        margin-top: 20px;
+    }
 }
