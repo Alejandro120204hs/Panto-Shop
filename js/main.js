@@ -80,5 +80,10 @@ $('.slider-testimonials').slick({
   ]
 
   });
+
+    AOS.init();
 });
+
+
+
 

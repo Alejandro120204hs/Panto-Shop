@@ -33,6 +33,10 @@ p,a,button,li,label,input,select,textarea,span{
 
 /*5. DESKTOP */
 
+body{
+    overflow-x: hidden;
+}
+
 /* ESTILOS HEADER -------------------------------------------------------------------------------------------*/
 header{
     width: 100%;
